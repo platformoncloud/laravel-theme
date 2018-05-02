@@ -19,10 +19,10 @@ class FileProvider extends AbstractProvider implements Provider
 
     /**
      * Display the view.
-     * 
-     * @param  array $view
-     * @param  array $data
-     * 
+     *
+     * @param array $view
+     * @param array $data
+     *
      * @return \Illuminate\View\View
      */
     public function view($view = [], $data = [])
