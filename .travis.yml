@@ -1,0 +1,24 @@
+language: php
+
+sudo: true
+
+php:
+  - 7.1
+  - 7.2
+
+before_script:
+  - composer self-update
+
+install:
+  - cd ../../
+  - composer create-project laravel/laravel
+  - mkdir ./laravel/packages
+  - mv ./platformoncloud ./laravel/packages
+  - cd ./laravel
+  - php artisan key:generate
+  - 'composer config repositories `{ "type": "path", "url": "packages/platformoncloud/laravel-theme/", "options": { "symlink": true }}`'
+  - composer require platformoncloud/laravel-theme dev-master
+  - cp -f ./vendor/platformoncloud/laravel-theme/tests/web.php ./routes/
+
+script:
+  - phpunit vendor/platformoncloud/laravel-theme/tests/ThemeTest.php

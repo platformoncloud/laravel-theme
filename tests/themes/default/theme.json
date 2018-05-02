@@ -1,0 +1,12 @@
+{
+	"theme_title": "Default theme",
+	"theme_description": "Default theme for the theme package",
+	"theme_uri": "https://platformoncloud.com",
+	"theme_version": "1.0.0",
+	"theme_license": "The MIT License (MIT)",
+	"theme_tags": "default, simple",
+	"theme_type": "web",
+	"author_name": "Minuwan Deshapriya",
+	"author_email": "minuwan@platformoncloud.com",
+	"author_uri": "https://platformoncloud.com"
+}

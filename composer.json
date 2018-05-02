@@ -1,0 +1,41 @@
+{
+    "name": "platformoncloud/laravel-theme",
+    "type": "library",
+    "description": "Laravel 5 themes",
+    "keywords": ["theme", "themes", "laravel", "PlatformOnCloud", "platformoncloud", "platform on cloud"],
+    "license": "MIT",
+    "homepage": "https://platformoncloud.com",
+    "support": {
+        "issues": "https://github.com/platformoncloud/laravel-theme/issues",
+        "source": "https://github.com/platformoncloud/laravel-theme"
+    },
+    "authors": [
+        {
+            "name": "Minuwan Deshapriya",
+            "email": "minuwan@platformoncloud.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "laravel/framework": "~5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Platformoncloud\\Theme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Platformoncloud\\Theme\\ThemeServiceProvider"
+            ],
+            "aliases": {
+                "Theme": "Platformoncloud\\Theme\\Facades\\Theme"
+            }
+        }
+    },
+    "minimum-stability": "stable"
+}
