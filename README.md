@@ -2,7 +2,7 @@
 
 The PlatformOnCloud's theme is a theme management package for Laravel with a set of tools to help you easily and quickly build a theme management system for your laravel based project. The goal of this package is to remain as flexible as possible and provide a way to use the same package PlatformOnCloud use internally.
 
-[![Build Status](https://img.shields.io/travis/platformoncloud/laravel-theme/master.svg?style=flat-square)](https://travis-ci.org/platformoncloud/laravel-theme) [![StyleCI](https://styleci.io/repos/000000000/shield)](https://styleci.io/repos/000000000) [![GitHub release](https://img.shields.io/github/release/platformoncloud/laravel-theme.svg?style=flat-square)](https://github.com/platformoncloud/laravel-theme/) [![License](https://img.shields.io/packagist/l/platformoncloud/laravel-theme.svg?style=flat-square)](LICENSE) [![Total Installs](https://img.shields.io/packagist/dt/platformoncloud/laravel-theme.svg?style=flat-square)](https://packagist.org/packages/platformoncloud/laravel-theme)
+[![Build Status](https://img.shields.io/travis/platformoncloud/laravel-theme/master.svg?style=flat-square)](https://travis-ci.org/platformoncloud/laravel-theme) [![StyleCI](https://styleci.io/repos/131830996/shield)](https://styleci.io/repos/131830996) [![GitHub release](https://img.shields.io/github/release/platformoncloud/laravel-theme.svg?style=flat-square)](https://github.com/platformoncloud/laravel-theme/) [![License](https://img.shields.io/packagist/l/platformoncloud/laravel-theme.svg?style=flat-square)](LICENSE) [![Total Installs](https://img.shields.io/packagist/dt/platformoncloud/laravel-theme.svg?style=flat-square)](https://packagist.org/packages/platformoncloud/laravel-theme)
 
 ## Supports
 
